@@ -1,9 +1,9 @@
-// -latest token - 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
+// -latest token - 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
 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
 
 //git remote set-url origin https://token@github.com/username/repo_name.git
 // git remote add origin https://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@github.com/mpratik-14/React.git
-// git remote add origin https://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@github.com/mpratik-14/Javascript.git
+// git remote add origin https://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@github.com/mpratik-14/Javascript.git
 //or
 // git remote add origin 
 // git config --list
