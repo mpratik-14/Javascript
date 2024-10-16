@@ -95,11 +95,12 @@
 
 // getAllUsers()
 
-fetch('https://jsonplaceholder.typicode.com/users')
+// fetch('https://jsonplaceholder.typicode.com/users')
+fetch('https://api.github.com/users/mpratik-14')
 .then((response) => {
     return response.json()
 })
-.then((data) => {
+.then((data) => {yt
     console.log(data);
     
 })
