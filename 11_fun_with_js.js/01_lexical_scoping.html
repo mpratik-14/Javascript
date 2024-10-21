@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+
+<body style="background-color: #222; color: #fff;">
+
+</body>
+<script>
+    // function init() {
+    //     let name = "Mozilla"; // name is a local variable created by init
+    //     function displayName() {
+    //         // displayName() is the inner function, that forms a closure
+    //         console.log(name); // use variable declared in the parent function
+    //     }
+    //     displayName();
+    // }
+    // init();
+
+    function outer(){
+        let username = "pratik";
+
+        function inner(){
+            let secret = "abc"
+            console.log(`In inner: ${username}`);
+            
+            function insideInner(){
+                console.log(`In insideInner: ${username}`);
+                console.log(`In insideInner: ${secret}`);
+
+            }
+
+            insideInner()
+        }
+        
+        function innerTwo(){
+            console.log(`In inner two: ${username}`);
+            console.log(`In inner two: ${secret}`);
+            
+        }
+        inner()
+        innerTwo()
+    }
+    outer()
+    console.log(`in outer : ${username}`);
+    
+</script>
+
+</html>

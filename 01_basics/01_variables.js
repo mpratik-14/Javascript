@@ -16,7 +16,7 @@ var accountPassword = "12345"
 accountCity = "Jaipur"
 let accountState;
 
-// accountId = 2 // not alloweds
+accountId = 2 // not alloweds
 
 
 accountEmail = "hc@hc.com"
